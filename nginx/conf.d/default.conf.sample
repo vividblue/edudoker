@@ -2,7 +2,7 @@ server {
 
     listen 80;
     # 项⽬地址
-	set $root_dir /var/www/html/kaola-edusoho;
+	set $root_dir /var/www/html/edusoho;
 	# 服务器名
     server_name www.koalaclass.com.au *.koalaclass.com.au;
     root $root_dir/web;
